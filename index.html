@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcousticVoid</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #e0e0e0;
+            font-family: 'Courier New', monospace;
+            padding: 40px;
+            margin: 0;
+            cursor: pointer;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: normal;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #666;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #222;
+            padding-bottom: 8px;
+        }
+        .list {
+            columns: 4;
+            column-gap: 40px;
+            max-width: 1200px;
+        }
+        .list p {
+            margin: 6px 0;
+            font-size: 14px;
+            color: #aaa;
+            transition: color 0.2s;
+        }
+        .list p:hover {
+            color: #fff;
+        }
+        .warning {
+            color: #ff6b6b;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .list { columns: 2; }
+            h1 { font-size: 32px; }
+        }
+    </style>
+</head>
+<body>
+    <h1>AcousticVoid</h1>
+    <p class="subtitle">click anywhere</p>
+
+    <div class="section-title">Screensharer</div>
+    <div class="section-title" style="border-bottom: none; color: #ff6b6b; font-size: 13px;">⚠ Partial record &lt;50% of total experience</div>
+
+    <div class="list">
+        <p>Hoplite</p>
+        <p>Minecraft Screenshare Community</p>
+        <p>RedLotus Forensics</p>
+        <p>Ocean Anticheat</p>
+        <p>Detect.ac</p>
+        <p>FadedMC</p>
+        <p>PVP Tiers Network</p>
+        <p>Crystal TL</p>
+        <p>Mace TL</p>
+        <p>Axe TL</p>
+        <p>Sword TL</p>
+        <p>SMP TL</p>
+        <p>UHC TL</p>
+        <p>Nethpot TL</p>
+        <p>DiaPot TL</p>
+        <p>Solitary TL</p>
+        <p>CZ/SK PVP Community</p>
+        <p>Xylon</p>
+        <p>UKFFA</p>
+        <p>WestFFA</p>
+        <p>CartPrac</p>
+        <p>Indian Tiers</p>
+        <p>Stoneworks</p>
+        <p>France Tiers</p>
+        <p>OCE TL</p>
+        <p>Vexoria Network</p>
+        <p>Ranked Bedwars</p>
+        <p>Bridge Scrims</p>
+        <p>FunnieWars</p>
+        <p>ColdPvP</p>
+        <p>Purple Prison</p>
+        <p>Combat TL</p>
+        <p>Blitz TL</p>
+        <p>PVP TL</p>
+        <p>EZ TL</p>
+        <p>Ryzen MC</p>
+    </div>
+
+    <p class="warning">⚠ This is a demonstration page - replace with your own content</p>
+
+    <script>
+        document.addEventListener('click', function() {
+            document.body.style.opacity = '0.8';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
